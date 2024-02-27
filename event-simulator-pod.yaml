@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: event-simulator
-    image: kodekloud/event-simulator
+    image: quay.io/omaciel/event-simulator
   - name: image-processor
     image: busybox
     args: [/bin/sh, -c,
